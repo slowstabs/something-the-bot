@@ -111,4 +111,4 @@ async def roll(ctx):
 async def on_disconnect():
     save_message_count()
 
-client.run("MTE3NTY1MDEwMTY3OTYyODM3OQ.GSye3n.43q-2y_6pkzZIzlfIOjZfWB-YlZIK70XituRrw")
+client.run("CLIENT TOKEN")
