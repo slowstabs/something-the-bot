@@ -10,12 +10,6 @@ client = commands.Bot(command_prefix='!', intents=intents)
 
 message_count = {}
 
-mydb = mysql.connector.connect(
-    host='127.0.0.1',
-    user='root',
-    password='',
-    database='dbtest'
-)
 
 # Load message counts from a JSON file if available
 def load_message_count():
